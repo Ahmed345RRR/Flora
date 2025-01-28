@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ @apply bg-white w-full text-black h-dvh
+}
+
+@font-face {
+    font-family: "KronaOne-Regular";
+    src: url('/fonts/KronaOne-Regular.ttf');
+}
